@@ -9,3 +9,5 @@ app = Flask(__name__)
 def hello():
     return '<h1>Hello, World de Chamo para todos!</h1>'
 
+def suma(a, b):
+    return a + b
